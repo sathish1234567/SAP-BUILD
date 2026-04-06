@@ -1,0 +1,10 @@
+Use SAP Business Application Studio (BAS) to package and deploy your application. 
+YouTube
+YouTube
+ +1
+Add Deployment Configuration: If not already configured, run the command npx fiori add deploy-config in your project terminal. Select Cloud Foundry as the target environment.
+Build the Project: Generate a Multi-Target Application (MTA) archive by right-clicking the mta.yaml file and selecting Build MTA Project, or run npm run build in the terminal.
+Deploy the Archive: Once the .mtar file is generated in the mta_archives folder, right-click it and select Deploy MTA Archive. This uploads your application to the HTML5 Application Repository in your BTP subaccount. 
+SAP Developer Center
+SAP Developer Center
+ +4
